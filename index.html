@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <!-- head info -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css"
+      integrity="sha512-Y0MM+V6ymRKN2zStTqzQ227DWhhp4Mzdo6gnlRnuaNCbc+YN/ZH0sBCLTM4M0oSy9c9VKiCvd4Jk44aCLrNS5Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <meta charset="utf-8" />
+    <meta name="description" content="webstudio" />
+    <title>Web Studio (version 2.1)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <a href="./index.html" class="logo"
+        ><span class="logo-item">Web</span>Studio</a
+      >
+      <nav class="site-nav list">
+        <ul>
+          <li><a class="link currentLink" href="./index.html">Студия</a></li>
+          <li><a class="link" href="./portfolio.html">Портфолио</a></li>
+          <li><a class="link" href="">Контакты</a></li>
+        </ul>
+      </nav>
+      <ul class="contact">
+        <!-- Ссылка на адрес электронной почты  -->
+        <li>
+          <a class="mail-link" href="malito:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <!-- Ссылка на телефонный номер -->
+        <li>
+          <a class="tel-link" href="tel:+380961111111">+38 099 111 11 11</a>
+        </li>
+      </ul>
+    </header>
+    <!-- герой-->
+    <main>
+      <section class="hero">
+        <h1 class="hero-title">
+          Эффективные решения <br />
+          для вашего бизнеса
+        </h1>
+        <button type="button" class="button-primary cursors btn">
+          Заказать услугу
+        </button>
+      </section>
+      <!-- main goal -->
+      <section class="section">
+        <ul class="main-goal">
+          <li>
+            <h3 class="section-title">Внимание к деталям</h3>
+            <p>
+              Идейные соображения, а также начало повседневной работы по
+              формированию позиции.
+            </p>
+          </li>
+          <li>
+            <h3 class="section-title">Пунктуальность</h3>
+            <p>
+              Задача организации, в особенности же рамки и место обучения кадров
+              влечет за собой.
+            </p>
+          </li>
+          <li>
+            <h3 class="section-title">Планирование</h3>
+            <p>
+              Равным образом консультация с широким активом в значительной
+              степени обуславливает.
+            </p>
+          </li>
+          <li>
+            <h3 class="section-title">Современные технологии</h3>
+            <p>
+              Значимость этих проблем настолько очевидна, что реализация
+              плановых заданий.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <!-- presentation-->
+      <section class="section presentation-section">
+        <h2 class="section-title our-work">Чем мы занимаемся</h2>
+        <ul class="image-card">
+          <li>
+            <img
+              class="card-image"
+              src="images/img-1.jpg"
+              alt="img-1"
+              width="370"
+              height="294"
+            />
+          </li>
+          <li>
+            <img
+              class="card-image"
+              src="images/img-2.jpg"
+              alt="img-2"
+              width="370"
+              height="294"
+            />
+          </li>
+          <li>
+            <img
+              class="card-image"
+              src="images/img-3.jpg"
+              alt="img-3"
+              width="370"
+              height="294"
+            />
+          </li>
+        </ul>
+      </section>
+      <section class="section our-team">
+        <h2 class="section-title our-team">Наша команда</h2>
+        <!-- our team-->
+        <ul class="list-team">
+          <li>
+            <img
+              class="card-image"
+              src="images/img-4.jpg"
+              alt="img-4"
+              width="270"
+              height="260"
+            />
+            <h3 class="section-title">Игорь Демьяненко</h3>
+            <p>Product Designer</p>
+          </li>
+          <li>
+            <img
+              class="card-image"
+              src="images/img-5.jpg"
+              alt="img-5"
+              width="270"
+              height="260"
+            />
+            <h3 class="section-title">Ольга Репина</h3>
+            <p>Frontend Developer</p>
+          </li>
+          <li>
+            <img
+              class="card-image"
+              src="images/img-6.jpg"
+              alt="img-6"
+              width="270"
+              height="260"
+            />
+            <h3 class="section-title">Николай Тарасов</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img
+              class="card-image"
+              src="images/img-7.jpg"
+              alt="img-7"
+              width="270"
+              height="260"
+            />
+            <h3 class="section-title">Михаил Ермаков</h3>
+            <p>UI Designer</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <!-- Page footer-->
+    <footer class="info">
+      <a href="./index.html" class="logo"
+        ><span class="logo-item">Web</span
+        ><span class="logo-footer">Studio</span></a
+      >
+      <!-- adress-->
+      <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
+      <ul class="contact">
+        <!-- Ссылка на адрес электронной почты  -->
+        <li>
+          <a class="mail-link" href="malito:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <!-- Ссылка на телефонный номер -->
+        <li>
+          <a class="tel-link" href="tel:+380961111111">+38 099 111 11 11</a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
