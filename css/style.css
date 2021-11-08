@@ -187,7 +187,6 @@ p {
 
 /* основная секция на веб и портфолио */
 .section-title {
-  /* margin-top: 94px; */
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
@@ -207,6 +206,7 @@ p {
   margin: auto;
   line-height: 1.16;
   text-align: center;
+  text-transform: none;
 }
 
 /* кнопка web студия - заказать услуги*/
@@ -269,6 +269,7 @@ p {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+  text-transform: none;
 }
 
 .image-card,
@@ -290,7 +291,9 @@ p {
   margin-right: 0;
 }
 
-.list-team {
+.list-team .item {
+  background-color: var(--primary-white-color);
+  padding-bottom: 30px;
   margin-top: 50px;
 }
 
