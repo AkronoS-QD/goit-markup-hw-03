@@ -50,7 +50,7 @@
     </header>
     <!-- hero -->
     <main class="container">
-      <section>
+      <section class="portfolio-section">
         <h1 class="hero-title-portfolio">Фильтр выбора</h1>
         <ul class="btn-filtr cursors list">
           <li class="item">
@@ -77,9 +77,11 @@
                 alt="Технокряк"
                 width="370"
               />
-              <h3 class="product-name">Технокряк</h3>
-              <p class="application-area">Веб-сайт</p></a
-            >
+              <div class="item-product">
+                <h3 class="product-name">Технокряк</h3>
+                <p class="application-area">Веб-сайт</p>
+              </div>
+            </a>
           </li>
           <li class="element">
             <a class="filtr-our-product" href=""
@@ -88,8 +90,10 @@
                 alt="Постер New Orlean vs Golden Star"
                 width="370"
               />
-              <h3 class="product-name">Постер New Orlean vs Golden Star</h3>
-              <p class="application-area">Дизайн</p></a
+              <div class="item-product">
+                <h3 class="product-name">Постер New Orlean vs Golden Star</h3>
+                <p class="application-area">Дизайн</p>
+              </div></a
             >
           </li>
           <li class="element">
@@ -99,8 +103,10 @@
                 alt="Ресторан Seafood"
                 width="370"
               />
-              <h3 class="product-name">Ресторан Seafood</h3>
-              <p class="application-area">Приложение</p></a
+              <div class="item-product">
+                <h3 class="product-name">Ресторан Seafood</h3>
+                <p class="application-area">Приложение</p>
+              </div></a
             >
           </li>
           <li class="element">
@@ -110,8 +116,10 @@
                 alt="Проект Prime"
                 width="370"
               />
-              <h3 class="product-name">Проект Prime</h3>
-              <p class="application-area">Маркетинг</p></a
+              <div class="item-product">
+                <h3 class="product-name">Проект Prime</h3>
+                <p class="application-area">Маркетинг</p>
+              </div></a
             >
           </li>
           <li class="element">
@@ -121,8 +129,10 @@
                 alt="Проект Boxes"
                 width="370"
               />
-              <h3 class="product-name">Проект Boxes</h3>
-              <p class="application-area">Приложение</p></a
+              <div class="item-product">
+                <h3 class="product-name">Проект Boxes</h3>
+                <p class="application-area">Приложение</p>
+              </div></a
             >
           </li>
           <li class="element">
@@ -132,8 +142,12 @@
                 alt="Inspiration has no Borders"
                 width="370"
               />
-              <h3 class="product-name" lang="en">Inspiration has no Borders</h3>
-              <p class="application-area">Веб-сайт</p></a
+              <div class="item-product">
+                <h3 class="product-name" lang="en">
+                  Inspiration has no Borders
+                </h3>
+                <p class="application-area">Веб-сайт</p>
+              </div></a
             >
           </li>
           <li class="element">
@@ -143,8 +157,10 @@
                 alt="Издание Limited Edition"
                 width="370"
               />
-              <h3 class="product-name">Издание Limited Edition</h3>
-              <p class="application-area">Дизайн</p></a
+              <div class="item-product">
+                <h3 class="product-name">Издание Limited Edition</h3>
+                <p class="application-area">Дизайн</p>
+              </div></a
             >
           </li>
           <li class="element">
@@ -154,8 +170,10 @@
                 alt="Проект LAB"
                 width="370"
               />
-              <h3 class="product-name">Проект LAB</h3>
-              <p class="application-area">Маркетинг</p></a
+              <div class="item-product">
+                <h3 class="product-name">Проект LAB</h3>
+                <p class="application-area">Маркетинг</p>
+              </div></a
             >
           </li>
           <li class="element">
@@ -165,8 +183,10 @@
                 alt="Growing Business"
                 width="370"
               />
-              <h3 class="product-name" lang="en">Growing Business</h3>
-              <p class="application-area">Приложение</p></a
+              <div class="item-product">
+                <h3 class="product-name" lang="en">Growing Business</h3>
+                <p class="application-area">Приложение</p>
+              </div></a
             >
           </li>
         </ul>
@@ -175,25 +195,27 @@
     <!-- Page footer-->
     <footer class="info container">
       <div>
-        <a href="./index.html" class="logo footer-link"
-          ><span class="logo-item">Web</span
-          ><span class="logo-footer">Studio</span></a
-        >
-      </div>
-      <!-- adress-->
-      <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
-      <ul class="footer-contact list">
-        <!-- Ссылка на адрес электронной почты  -->
-        <li class="item">
-          <a class="mail-link" href="malito:info@devstudio.com"
-            >info@devstudio.com</a
+        <div class="footer-logo">
+          <a href="./index.html" class="logo"
+            ><span class="logo-item">Web</span
+            ><span class="logo-footer">Studio</span></a
           >
-        </li>
-        <!-- Ссылка на телефонный номер -->
-        <li class="item">
-          <a class="tel-link" href="tel:+380961111111">+38 099 111 11 11</a>
-        </li>
-      </ul>
+        </div>
+        <!-- adress-->
+        <address class="address">г. Киев, пр-т Лес и Украинки, 26</address>
+        <ul class="footer-contact list">
+          <!-- Ссылка на адрес электронной почты  -->
+          <li class="item">
+            <a class="mail-link" href="malito:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <!-- Ссылка на телефонный номер -->
+          <li class="item">
+            <a class="tel-link" href="tel:+380961111111">+38 099 111 11 11</a>
+          </li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>

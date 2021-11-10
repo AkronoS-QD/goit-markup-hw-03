@@ -57,7 +57,7 @@
           Эффективные решения <br />
           для вашего бизнеса
         </h1>
-        <button type="button" class="button-primary cursors btn">
+        <button type="button" class="button-primary cursors">
           Заказать услугу
         </button>
       </section>
@@ -144,8 +144,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="section-title staff">Игорь Демьяненко</h3>
-              <p class="job">Product Designer</p>
+              <div class="staff-member">
+                <h3 class="section-title staff">Игорь Демьяненко</h3>
+                <p class="job">Product Designer</p>
+              </div>
             </li>
             <li class="item">
               <img
@@ -155,8 +157,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="section-title staff">Ольга Репина</h3>
-              <p class="job">Frontend Developer</p>
+              <div class="staff-member">
+                <h3 class="section-title staff">Ольга Репина</h3>
+                <p class="job">Frontend Developer</p>
+              </div>
             </li>
             <li class="item">
               <img
@@ -166,8 +170,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="section-title staff">Николай Тарасов</h3>
-              <p class="job">Marketing</p>
+              <div class="staff-member">
+                <h3 class="section-title staff">Николай Тарасов</h3>
+                <p class="job">Marketing</p>
+              </div>
             </li>
             <li class="item">
               <img
@@ -177,8 +183,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="section-title staff">Михаил Ермаков</h3>
-              <p class="job">UI Designer</p>
+              <div class="staff-member">
+                <h3 class="section-title staff">Михаил Ермаков</h3>
+                <p class="job">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -187,25 +195,27 @@
     <!-- Page footer-->
     <footer class="info container">
       <div>
-        <a href="./index.html" class="logo footer-link"
-          ><span class="logo-item">Web</span
-          ><span class="logo-footer">Studio</span></a
-        >
-      </div>
-      <!-- adress-->
-      <address class="address">г. Киев, пр-т Лес и Украинки, 26</address>
-      <ul class="footer-contact list">
-        <!-- Ссылка на адрес электронной почты  -->
-        <li class="item">
-          <a class="mail-link" href="malito:info@devstudio.com"
-            >info@devstudio.com</a
+        <div class="footer-logo">
+          <a href="./index.html" class="logo"
+            ><span class="logo-item">Web</span
+            ><span class="logo-footer">Studio</span></a
           >
-        </li>
-        <!-- Ссылка на телефонный номер -->
-        <li class="item">
-          <a class="tel-link" href="tel:+380961111111">+38 099 111 11 11</a>
-        </li>
-      </ul>
+        </div>
+        <!-- adress-->
+        <address class="address">г. Киев, пр-т Лес и Украинки, 26</address>
+        <ul class="footer-contact list">
+          <!-- Ссылка на адрес электронной почты  -->
+          <li class="item">
+            <a class="mail-link" href="malito:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <!-- Ссылка на телефонный номер -->
+          <li class="item">
+            <a class="tel-link" href="tel:+380961111111">+38 099 111 11 11</a>
+          </li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>
